@@ -1,0 +1,169 @@
+
+body
+{
+    font-size: 2em;
+    background-color: bisque;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin: 2%;
+    color: black;
+    display:block;
+    text-decoration:none;
+
+    padding:0 0px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+nav {
+    display:block;
+}
+
+form {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    font-size:18px;
+    line-height:2em;
+    text-align:center;
+
+  }
+
+  form label 
+  {
+    display:block;
+    text-decoration:none;
+    color:bla;
+    padding:0 0px;
+    text-shadow: white 0.1em 0.1em 0.2em;
+    
+  }
+
+  form > label {
+    display:inline-block;
+    height:2em;
+    background-color:#F09819;
+    text-align: center;
+    background-color:#F09819;
+    border:solid 1px white;
+    z-index:9999;
+    
+  }
+
+
+  form > label:first-child {
+    margin-left:0;
+  }
+  form > label:hover 
+  {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+  }
+
+
+  input[type="radio"]{
+    display: none;
+}
+
+figure.four_columns_all_poster {
+
+  float: left;
+
+}
+img.circle {
+  float: left;
+  border-radius: 50%;
+}
+
+hr{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:white;
+  height: 3px;
+}
+
+p.copyright{
+  width: 100%;
+  display: inline;
+}
+
+ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    font-size:18px;
+    line-height:2em;
+    text-align:center;
+    margin-bottom:3em;
+}
+
+li{
+  display:inline-block;
+  width: 10em;
+  height:2em;
+  text-align: center;
+  z-index:9999;
+
+}
+
+p.copyright 
+{
+  margin-top: 10px;
+}
+.dribble {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  display: inline-block;
+}
+.dribble .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.dribble:hover .img-top {
+  display: inline;
+}
+
+
+.facebook {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  display: inline-block;
+}
+.facebook .img-top1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.facebook:hover .img-top1 {
+  display: inline;
+
+}
+
+.twitter {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  display: inline-block;
+}
+.twitter .img-top2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.twitter:hover .img-top2 {
+  display: inline;
+
+}
+
